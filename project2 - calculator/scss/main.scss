@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f3f3;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  width: 380px;
+  background: #171717;
+
+  &__display {
+    background: #c4c4c4;
+    height: 60px;
+    padding: 15px;
+    text-align: right;
+    color: #313131;
+    line-height: 60px;
+  }
+
+  &__actions {
+    background: #171717;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    button {
+      width: calc((100% / 3) - 40px);
+      height: 35px;
+      appearance: none;
+      outline: none;
+      border: none;
+      margin: 5px;
+    }
+
+    .blank {
+      opacity: 0;
+    }
+
+    .action,
+    .operator {
+      background: #ffc000;
+    }
+  }
+}
