@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: #f3f3f3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.container .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .form input {
+  background-color: #171717;
+  color: #f3f3f3;
+  flex: 1;
+  font-size: 18px;
+  height: 40px;
+  text-indent: 10px;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+.container .form input::placeholder {
+  color: #aaa;
+}
+.container .form .btn {
+  width: 50px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #24a484;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 0;
+}
+.container .form .btn:hover {
+  background-color: #1f8f73;
+}
+.container .form .btn:active {
+  background-color: #29b995;
+}
+.container .list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.container .list .list-item {
+  display: flex;
+  margin: 10px;
+  padding: 15px 15px;
+  background-color: #ffffff;
+}
+.container .list .list-item .item-name {
+  flex: 1;
+  color: #24a484;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.container .list .list-item .item-name:disabled {
+  color: #171717;
+}
+.container .list .list-item .item-actions button {
+  width: 75px;
+  height: 25px;
+  border: none;
+  outline: none;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+.container .list .list-item .item-actions button.update {
+  background-color: #24a484;
+  margin-right: 2px;
+}
+.container .list .list-item .item-actions button.update:hover {
+  background-color: #1f8f73;
+}
+.container .list .list-item .item-actions button.update:active {
+  background-color: #29b995;
+}
+.container .list .list-item .item-actions button.remove {
+  background-color: #af1e2d;
+}
+.container .list .list-item .item-actions button.remove:hover {
+  background-color: #991a27;
+}
+.container .list .list-item .item-actions button.remove:active {
+  background-color: #c52233;
+}
+
+/*# sourceMappingURL=main.css.map */

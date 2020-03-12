@@ -13,3 +13,7 @@ This repository will be a list of project ideas.
 ## Project 3 - Quiz
 
 [quiz](https://github.com/botelja/projectPerDay/tree/master/project3%20-%20quiz)
+
+## Project 4 - TodoList
+
+[todolist](https://github.com/botelja/projectPerDay/tree/master/project4%20-%20todolist)
